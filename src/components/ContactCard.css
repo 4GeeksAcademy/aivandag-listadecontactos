@@ -1,0 +1,81 @@
+.card-container {
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 15px 20px;
+    padding-top: 2px;
+    border-radius: 1px;
+    border-bottom: 1px solid gainsboro;
+         
+}
+
+
+
+.contacts-list {
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+}
+
+.container-newcontact {
+    text-align: end;
+    margin-bottom: 15px;
+}
+
+.contact-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5px;
+    
+}
+
+.contact-img {
+width: 140px;
+height: 80px;
+object-fit: cover;
+border-radius: 50%;
+padding-left: 25px;
+}
+
+.contact-info {
+    flex: 1;
+    text-align: left;
+    padding-left: 4px;
+    
+}
+
+.contact-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.contact-info p {
+font-size: 12px;
+margin: 2px;
+}
+
+.contact-info p i {
+    margin-right: 8px;
+}
+
+
+
+.contact-action {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 20px;
+    margin-right: 20px;
+}
+
+.contact-action .btn {
+    padding: 4px 6px;
+    font-size: 8px;
+    color: black;
+    border-color: black;
+    position: relative;
+    margin-top: 10px;
+}
