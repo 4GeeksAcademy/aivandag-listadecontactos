@@ -21,7 +21,7 @@ const AddContact = () => {
     useEffect(() => {
         const fetchContact = async () => {
             try {
-                const response = await fetch("https://playground.4geeks.com/contact/agendas/aivandag/contacts");
+                const response = await fetch(`https://playground.4geeks.com/contact/agendas/aivandag/contacts/${id}`);
                 if (response.ok) {
                     const data = await response.json();
                     setform(data);
@@ -45,7 +45,7 @@ const AddContact = () => {
         event.preventDefault();
 
         const url = id
-            ? `https://playground.4geeks.com/contact/${id}`
+            ? `https://playground.4geeks.com/contact/agendas/aivandag/contacts/${id}`
             : "https://playground.4geeks.com/contact/agendas/aivandag/contacts"
 
         const method = id ? "PUT" : 'POST';
